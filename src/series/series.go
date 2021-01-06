@@ -3,15 +3,12 @@ package series
 // Fibonacci returns fiboSeries in from of an array upto the given limit
 func Fibonacci(to int) []int {
 	fiboSeries := make([]int, 0)
-
-	pri := -1
-	next := 1
+	pri, next := -1, 1
 
 	for i := 0; i < to; i++ {
 		sum := pri + next
 		fiboSeries = append(fiboSeries, sum)
-		pri = next
-		next = sum
+		pri, next = next, sum
 	}
 	return fiboSeries
 }
