@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"rsc.io/quote"
-	"step.com/main/src/factorial"
-	"step.com/main/src/series"
+	"step.com/basic_funcs/src/factorial"
+	"step.com/basic_funcs/src/series"
 )
 
 func main() {

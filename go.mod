@@ -1,4 +1,4 @@
-module step.com/main
+module step.com/basic_funcs
 
 go 1.15
 
